@@ -1,0 +1,119 @@
+header {
+    background-color: #609BBF;
+    padding: 20px;
+}
+
+.titulo {
+    color: white;
+    text-align: center;
+        font-family: "Rowdies", sans-serif;
+        font-size: 50px;
+        font-style: normal;
+        text-shadow: 2px 1px 12px rgba(183, 181, 181, 0.928);
+        text-transform: uppercase;
+      }
+      
+nav {
+    background-color: #b5e3ff;
+    border-top: 15px solid #609BBF ;
+    border-right: 10px dashed #609BBF;
+    border-bottom: 15px solid #609BBF;
+    border-left: 10px dashed #609BBF;
+    width: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+    
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration-line: underline;
+    margin-top: 85px;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    text-indent: 20px;
+    text-align: left;
+    margin-left: 120px;
+    margin-right: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+img {
+    margin-left: 660px;
+    margin-bottom: 70px;
+    margin-top: 30px ;
+    border: solid 7px black;
+    border-radius: 15px;
+    width: 350px;
+}
+
+#grabacion {
+    border-radius: 10px;
+    border-color: #609BBF;
+    margin-left: 550px;
+    margin-top: 40px;
+    width: 600px;
+}
+      
+h3 {
+   
+     font-family: "Rowdies", sans-serif;
+     font-weight: 700;
+     font-style: normal;
+     font-size: 25px;
+     margin-left: 130px;
+      }
+      
+  
+
+ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-left: 130px;
+    margin-right: 100px;
+    line-height: 30px;
+}
+      
+      
+footer {
+    background-color: #b5e3ff;
+    margin-top: 200px;
+    border-top: solid 7px black;
+}
+
+#ultimo {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-align: center;
+font-size: 35px;
+}
+
+footer a {
+    text-align: center;
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 5px;
+
+}
+
+#red {
+    width: 100px;
+}
+
+
+#netflix {
+    width: 120px;
+}
+
+#facebook {
+    width: 90px;
+}
