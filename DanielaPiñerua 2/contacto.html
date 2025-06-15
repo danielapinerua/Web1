@@ -11,10 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" href="./principal/favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Rowdies:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Lilita+One&family=Lora:ital,wght@0,400..700;1,400..700&family=Rowdies:wght@700&family=Russo+One&display=swap" rel="stylesheet">
 
 </head>
@@ -62,7 +59,36 @@
     <main>
         <section>
     <h2 id="contacto"> Contacto</h2>
-    <p>Para el segundo parcial se va a encontrar aqui un formulario de contacto, para comentarios o consultas.</p>
+
+    <form method="get" action="./confirmacion.html" class="formulario">
+  <fieldset>
+    <legend><span>Ingresa con tu mail y contraseña</span></legend>
+    <span>Mail:</span>
+    <input type="mail" name="usuario" autofocus autocomplete="off" required>
+    <span>Contraseña:</span>
+    <input type="password" name="contraseña" required>
+ </fieldset>
+
+  <fieldset>
+    <legend><span>¡Contanos que te pareció la película!</span></legend>
+    <span>¿Cómo la calificarías?</span>
+    <select name="preferencia" required>
+      <option value="">Elegí una opción</option>
+      <option value="excelente">Excelente</option>
+      <option value="muybuena">Muy buena</option>
+      <option value="buena">Buena</option>
+      <option value="regular">Regular</option>
+      <option value="mala">Mala</option>
+    </select>
+  </fieldset>
+
+  <fieldset>
+    <legend><span>Dejanos tu mensaje</span></legend>
+    <span>¿Querés dejar una consulta o comentario?</span><br>
+    <textarea name="mensaje" cols="30"rows="3" placeholder="Escribí tu mensaje/consulta acá"></textarea>
+  </fieldset>
+  <button type="submit">Enviar</button>
+</form>
 </section>
 </main>
 

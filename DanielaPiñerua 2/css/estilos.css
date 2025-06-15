@@ -552,8 +552,72 @@ ul {
 }
 
 
+.formulario{
+    width: 600px;
+    margin: 0 auto;
+    color: white ;
+    background-color: #0E2F59;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px 15px 20px rgba(27, 27, 27, 0.1);
+}
 
-      
+.formulario fieldset{
+    border: 3px solid black;
+    border-radius: 8px;
+     padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+.formulario legend span{
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    background-color: #8BB4D9;
+    font-size: 20px;
+    padding: 10px;
+    width: 515px;
+    border-radius: 8px;
+ 
+}
+
+.formulario span{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 7px;
+}
+
+.formulario input, .formulario select, .formulario textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 2px solid #7ea0d9;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.15);
+  color: #f0f4f8;
+}
+
+.formulario textarea{
+    height: 90px;
+    
+}
+
+.formulario button[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  background: #5a81d1;
+  color: #e0e7ff;
+  font-weight: 900;
+  font-size: 1.2rem;
+  padding: 1rem;
+  border-radius: 10px;
+  
+}
+.formulario button[type="submit"]:hover {
+  background-color: #5c6fb8;
+  box-shadow: 0 4px 15px rgba(100, 120, 200, 0.5);
+}
+
+
       
 footer {
     background-color: #b5e3ff;
