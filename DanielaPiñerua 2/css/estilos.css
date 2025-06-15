@@ -452,7 +452,6 @@ height: 80px;
     height: 150px;
     margin: 25px 35px;
     border-radius: 10px;
-   
 }
 
 .cec{
@@ -529,7 +528,7 @@ ul {
     padding: 25px;
     border-radius: 15px;
     box-shadow: 0 0 20px;
-    width: 540px;
+    width: 530px;
     margin: 0 auto;
 }
 
@@ -642,6 +641,15 @@ ul {
 
 .confirmacion p:first-of-type{
     font-size: 27px;
+}
+
+.alto{
+    height: 400px;
+    padding: 15px;
+}
+
+.alto figure img{
+margin: 7px 15px;
 }
       
 footer {
