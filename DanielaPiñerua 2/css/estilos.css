@@ -1,0 +1,562 @@
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+    }
+
+body::before{
+    content: "";
+    background-image: url(../principal/andes.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+}
+
+body::after{
+    content: "";
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(6px);
+    z-index: -1;
+}
+header {
+    background-color: #8BB4D9;
+     width: 100%;
+    display:flex;
+    height: 10vh;
+    position: sticky;
+    z-index: 2000;
+    justify-content: space-between;
+    padding: 0 20px ;
+    align-items: center;
+    top: 0;
+}
+
+.titulo {
+    color: white;
+    text-align: center;
+        font-family: "Rowdies", sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        text-shadow: 2px 10px 22px rgba(255, 255, 255, 0.973);
+        text-transform: uppercase;
+        margin: 0 auto;
+      }
+      
+nav {
+    top: 0;
+    right: 0;
+    display: flex;
+    gap: 10px;
+    z-index: 999;
+    position: sticky;
+    z-index: 2001;
+}
+
+
+ a {
+text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 1.5rem;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+
+#panelhamburguesa{
+ height: 100vh;
+    width: 400px;
+    position: fixed;
+    top: 10vh;
+    right: -1000px;
+    transition: right .7s ease;
+    background-color: #8BB4D9;
+    background-size: 100% 100%;
+    border: 2px solid white;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+     font-size: 1.5rem;
+
+}
+
+
+
+.visitar{
+    text-shadow: 5px 4px 15px black;
+}
+
+
+main {
+z-index: 1;
+margin-top: 5vh;
+position: relative;
+min-height: 100vh;
+
+}
+
+
+#panelhamburguesa:target {
+right: 0;
+z-index: 1500;
+}
+
+#cerrar {
+ display: none;
+}
+
+#panelhamburguesa:target ~ header nav #abrir {
+display: none;
+}
+
+#panelhamburguesa:target ~ header nav #cerrar {
+display: inline-block;
+}
+
+ #tapado {
+position: fixed;
+ left: 0;
+  width: 100%;
+ height: 100%;
+ z-index: 1400;
+ background-color: rgba(0, 0, 0, 0);
+ opacity: 0;
+ transition: 1s ease, opacity 0.5s ease;
+ pointer-events: none;
+}
+
+
+#panelhamburguesa:target ~ #tapado {
+opacity: 1;
+background-color: rgba(0, 0, 0, 0.621);
+pointer-events: auto;
+ }
+
+.burgir{
+display: block;
+ padding: 1.5rem;
+  border: solid 1px white;
+
+}
+
+.submenu{
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+
+
+.submenuopciones{
+   display: none;
+    flex-direction: column;
+    background-color: #a5c8e5;
+     font-size: 1.2rem;
+
+
+
+}
+.submenu:hover .submenuopciones {
+    display: flex;
+}
+
+
+.milagro { 
+   display: flex;
+flex-direction: row-reverse;
+align-items:center;
+flex-wrap: wrap;
+min-height: 400px;
+gap: 2rem;
+margin: 0 5rem;
+background-color: rgba(255, 255, 255, 0.707);
+border: 2px solid rgba(173, 173, 173, 0.675);
+ border-radius: 10px;
+  box-shadow: 0 10px 75px rgba(0, 0, 0, 0.68); 
+
+} 
+
+.texto{
+flex: 2;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    text-indent: 15px;
+    line-height: 35px;
+    text-align:left;
+    color: black;
+    margin: 3rem;
+
+
+}
+
+
+.poster{
+    flex: 1.5;
+    width: 40%;
+    margin: 35px;
+    margin-left: 140px;
+}
+
+.milagro img {
+   width: 80%;
+   margin: 0 auto ;
+height: auto;
+border-radius: 10px;
+border: 10px solid #3E608C;
+   transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+
+@font-face {
+    font-family: 'aguafina_scriptregular';
+    src: url('aguafinascript-regular-webfont.woff2') format('woff2'),
+         url('aguafinascript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h2,h1{
+    text-align: center;
+    font-size: 35px;
+   font-family: 'aguafina_scriptregular';
+    src: url('aguafinascript-regular-webfont.woff2') format('woff2'),
+         url('aguafinascript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration-line: underline;
+    scroll-margin-top: 100px;
+}
+
+.sinopsiscuadro {
+   display: flex;
+  justify-content: space-between; 
+  align-items: flex-start;
+  flex-wrap: wrap; 
+  width: 70%;
+  height: 650px;
+  padding: 10px;
+  gap: 1rem;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.847);
+  border: 2px solid rgba(173, 173, 173, 0.675);
+  border-radius: 8px;
+  overflow: auto;
+  scroll-margin-top: 100px;
+}
+
+.sinopsistexto {
+    width: 40%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    text-indent: 15px;
+    text-align:left;
+    color: black;
+    padding: 5px;
+    margin-left: 30px;
+}
+
+
+#trailertitulo {
+   font-size: 20px;
+  margin-top: 100px;
+  font-family: 'aguafina_scriptregular';
+    src: url('aguafinascript-regular-webfont.woff2') format('woff2'),
+         url('aguafinascript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-weight: 700;
+    font-style: normal;
+  text-decoration-line: underline;
+  margin-right: 70px;
+}
+
+.trailer {
+    width: 50%;
+  box-sizing: border-box;
+
+}
+
+.mapa{
+    width: 50%;
+    margin: auto;
+}
+#locacion{
+    margin-top: 75px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 20px;
+    margin-top: 2%;
+}
+
+.columna{
+    width:30%;
+   min-width: 300px;
+   min-height: 410px;
+   background-color: #BDD9F2;
+   border-radius: 12px;
+   padding: 30px;
+   transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.columna:hover , article:hover , #oscar:hover , .foto:hover , .milagro img:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 1);
+}
+.mapa2{
+    width: 100%;
+    margin: auto;
+}
+
+.director{
+    width: 35%; 
+    margin-right: 30px; 
+}
+
+.director img {
+    width: 80%; 
+    height: auto; 
+    border-radius: 10px; 
+    margin-top: 20px;
+    border: solid 10px black;
+}
+
+
+figcaption{
+    color: #555;
+    text-align: center;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+}
+.milagro figcaption{
+    margin-right: 60px;
+    margin-top: 15px;
+}
+
+.director figcaption{
+    margin-right: 40px;
+}
+
+p {
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    text-align: left;
+    color: black;
+    text-indent: 10px;
+}
+
+h3{
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+}
+img {
+    border: solid 7px black;
+    border-radius: 5px;
+}
+.seb{
+    margin-left: 45px;
+}
+
+.contenedor2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 20px;
+  margin: auto;
+  width: 1500px;
+}
+
+article{
+ width: 340px;
+  height: 450px;
+  background-color: #BDD9F2;
+  border-radius: 12px;
+  padding: 25px;
+  box-sizing: border-box;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+article iframe{
+    width: 100%;
+height: 80px;
+}
+
+#oscar{
+    background-color: #BDD9F2;
+    width:900px;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 25px;
+    text-align: center;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    border: 5px solid black;
+
+}
+.bayona{
+    margin: 0;
+    width: 70%;
+}
+.bayona img{
+    height: 200px;
+    border-radius: 10px; 
+    margin-top: 20px;
+    border: solid 10px black;
+}
+
+.feroz{
+    height: 150px;
+    margin: 25px 35px;
+    border-radius: 10px;
+   
+}
+
+.cec{
+    margin: 30px 13px;
+}
+
+#grabacion {
+    border-radius: 10px;
+    border-color: #609BBF;
+    margin-left: 550px;
+    margin-top: 40px;
+    width: 600px;
+}
+
+.contenedorimagen{
+     display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 10px;
+  width: 1700px;
+}
+
+.foto{
+    width: 28%;
+background-color: #BDD9F2;
+  padding: 10px;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+.foto a{
+    all: unset;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #3E608C;
+    font-weight: 400;
+    font-style: normal;
+}
+.foto a:hover{
+    color: rgb(92, 91, 91);
+
+}
+.foto a:focus{
+    outline: 3px solid rgb(61, 61, 115);
+}
+
+.foto a:visited{
+    color: rgb(154, 14, 14);
+}
+
+.grande{
+    height: 300px;
+    padding-top: 35px;
+}
+#sub{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+      
+/*h2 {
+   
+     font-family: "Rowdies", sans-serif;
+     font-weight: 700;
+     font-style: normal;
+     font-size: 25px;
+     margin-left: 130px;
+      }
+      
+  */
+
+ul {
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: black;
+   
+}
+      
+      
+footer {
+    background-color: #b5e3ff;
+    margin-top: 200px;
+    border-top: solid 7px black;
+    z-index: 1;
+    padding: 20px 0;
+}
+
+#ultimo {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-align: center;
+font-size: 20px;
+margin-bottom: 10px;
+text-align: justify;
+color: black;
+margin-left: 100px;
+margin-top: 10px;
+}
+
+.redes{
+    justify-content: center;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.redes img{
+    width: 60px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    transition: transform 0.4s;
+}
+
+.redes img:hover{
+    transform: scale(1.1)
+}

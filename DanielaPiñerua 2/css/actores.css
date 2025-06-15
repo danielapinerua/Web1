@@ -1,0 +1,74 @@
+
+@font-face {
+    font-family: 'alluraregular';
+    src: url('allura-regular-webfont.woff2') format('woff2'),
+         url('allura-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+#titulo1 {
+    text-align: center;
+    font-family: 'alluraregular';
+    src: url('allura-regular-webfont.woff2') format('woff2'),
+         url('allura-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 50px;
+    text-decoration-line: underline ;
+    text-shadow: 3px 20px 10px #609BBF;
+    margin-top: 60px;
+    scroll-margin-top: 100px;
+
+}
+
+
+.color{
+  border-radius: 12px;
+ line-height: 30px;
+  padding: 25px;
+  color: white;
+}
+
+.texto1{
+    width: 500px;
+  height: 380px;
+  background-color: #0E2F59 ;
+border-radius: 15px;
+border: 10px solid white;
+
+}
+
+.texto2{
+    width: 500px;
+  height: 750px;
+  background-color: #0E2F59;
+  border-radius: 15px;
+border: 10px solid white;
+padding-bottom: 10px;
+}
+
+#actor {
+ border: 10px ridge white;
+margin-left: 45px;
+}
+
+#actor2 {
+ border: 10px ridge white;
+margin-left: 90px;
+
+}
+
+.texto2 img{
+   border: 10px ridge white;
+}
+.texto2 figcaption{
+    color: rgba(255, 255, 255, 0.792);
+}
+
+.reales {
+    margin: 65px;
+    
+}
