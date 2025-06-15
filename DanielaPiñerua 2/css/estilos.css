@@ -100,7 +100,7 @@ text-decoration: none;
 
 
 .visitar{
-    text-shadow: 5px 4px 15px black;
+    text-shadow: 5px 4px 10px black;
 }
 
 
@@ -194,7 +194,6 @@ border: 2px solid rgba(173, 173, 173, 0.675);
 
 .texto{
 flex: 2;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.5rem;
     text-indent: 15px;
     line-height: 35px;
@@ -225,8 +224,8 @@ border: 10px solid #3E608C;
 
 @font-face {
     font-family: 'aguafina_scriptregular';
-    src: url('aguafinascript-regular-webfont.woff2') format('woff2'),
-         url('aguafinascript-regular-webfont.woff') format('woff');
+    src: url('../fuentes1/aguafinascript-regular-webfont.woff2') format('woff2'),
+         url('../fuentes1/aguafinascript-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -262,6 +261,16 @@ h2,h1{
   overflow: auto;
   scroll-margin-top: 100px;
 }
+
+.size{
+height: 550px;
+}
+
+.big{
+    height: 710px;
+}
+
+
 
 .sinopsistexto {
     width: 40%;

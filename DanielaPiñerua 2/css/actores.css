@@ -1,8 +1,8 @@
 
 @font-face {
     font-family: 'alluraregular';
-    src: url('allura-regular-webfont.woff2') format('woff2'),
-         url('allura-regular-webfont.woff') format('woff');
+    src: url('../fuentes2/allura-regular-webfont.woff2') format('woff2'),
+         url('../fuentes2/allura-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
