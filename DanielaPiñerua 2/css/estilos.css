@@ -482,7 +482,7 @@ background-color: #BDD9F2;
   margin: 0 auto;
   border-radius: 15px;
 }
-.foto a{
+.foto a, .sinopsistexto a{
     all: unset;
     text-decoration: underline;
     cursor: pointer;
@@ -490,15 +490,15 @@ background-color: #BDD9F2;
     font-weight: 400;
     font-style: normal;
 }
-.foto a:hover{
+.foto a:hover , .sinopsistexto a:hover{
     color: rgb(92, 91, 91);
 
 }
-.foto a:focus{
+.foto a:focus , .sinopsistexto a:focus{
     outline: 3px solid rgb(61, 61, 115);
 }
 
-.foto a:visited{
+.foto a:visited , .sinopsistexto a:visited{
     color: rgb(154, 14, 14);
 }
 
@@ -511,16 +511,7 @@ background-color: #BDD9F2;
     margin-bottom: 50px;
 }
       
-/*h2 {
-   
-     font-family: "Rowdies", sans-serif;
-     font-weight: 700;
-     font-style: normal;
-     font-size: 25px;
-     margin-left: 130px;
-      }
-      
-  */
+
 
 ul {
     font-family: "Russo One", sans-serif;
@@ -530,6 +521,38 @@ ul {
     color: black;
    
 }
+
+.cuadromensaje{
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px;
+    width: 570px;
+    margin: 0 auto;
+}
+
+
+.cuadromensaje img{
+    width: 50px;
+    transition: transform 0.2s;
+}
+
+.cuadromensaje img:hover{
+    transform: scale(1.1);
+    
+}
+
+.cuadromensaje p , .cuadromensaje img{
+    margin-left: 55px;
+}
+
+.cuadromensaje p:first-child{
+    margin-left: 123px;
+    font-size: 23px;
+}
+
+
+
       
       
 footer {
