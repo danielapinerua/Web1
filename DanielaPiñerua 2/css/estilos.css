@@ -662,20 +662,17 @@ margin: 7px 15px;
 }
       
 footer {
-    background-color: #b5e3ff;
+    background-color: #0E2F59;
     margin-top: 200px;
     border-top: solid 7px black;
     z-index: 1;
-    padding: 20px 0;
+    padding: 5px;
 }
 
 #ultimo {
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-text-align: center;
 font-size: 20px;
 margin-bottom: 10px;
 text-align: justify;
-color: black;
 margin-left: 100px;
 margin-top: 10px;
 }
