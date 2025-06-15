@@ -1,8 +1,13 @@
-body {
-    position: relative;
+html, body {
     margin: 0;
     padding: 0;
+    height: 100%;
+}
 
+body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
     }
 
 body::before{
@@ -33,6 +38,8 @@ body::after{
     -webkit-backdrop-filter: blur(6px);
     z-index: -1;
 }
+
+
 header {
     background-color: #8BB4D9;
      width: 100%;
@@ -108,7 +115,9 @@ main {
 z-index: 1;
 margin-top: 5vh;
 position: relative;
-min-height: 100vh;
+display: flex;
+flex: 1;
+flex-direction: column;
 
 }
 
