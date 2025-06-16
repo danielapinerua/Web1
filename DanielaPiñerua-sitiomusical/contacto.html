@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="icon" href="./imagenes/favicon.ico" type="image/x-icon">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Lilita+One&family=Lora:ital,wght@0,400..700;1,400..700&family=Rowdies:wght@700&family=Russo+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="panelhamburguesa">
+        <a href="#inicio" class="burgir">Inicio</a>
+        <a href="./biografia.html" class="burgir">Biografía</a>
+        <a href="./recital.html" class="burgir">Recital</a>
+        <a href="./curiosidades.html" class="burgir">Curiosidades</a>
+        <a href="#contacto" class="burgir">Contacto</a>
+
+    </div>
+<div id="tapado"></div>
+<header>
+    <h1 id="banda">AIRBAG</h1>
+    <nav>
+        <a href="#panelhamburguesa" id="abrir">
+                <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px"
+                    fill="#e3e3e3">
+                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                </svg>
+            </a>
+<a href="#" id="cerrar"> 
+                <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px"
+                    fill="#e3e3e3">
+                    <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                </svg>
+            </a>
+    </nav>
+ </header>
+<main>
+    <section>
+        <h2 id="contacto">¡Contáctanos!</h2>
+        <form method="get" action="./confirmacion.html" class="formulario">
+  <fieldset>
+    <legend><span>Ingresa tus datos</span></legend>
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" id="nombre" required>
+    <label for="apellido">Apellido:</label>
+    <input type="text" name="apellido" id="apellido" required>
+    <label for="email">Mail:</label>
+    <input type="email" name="usuario" id="email" autocomplete="off" required>
+   <label for="contraseña">Contraseña:</label>
+    <input type="password" name="contraseña" id="contraseña" minlength="6" maxlength="15" required>
+ </fieldset>
+
+  <fieldset>
+    <legend><span>¡Contanos cual fue tu canción favorita!</span></legend>
+    <label for="preferencia">Mejor canción del álbum</label>
+    <select name="preferencia" id="preferencia" required>
+      <option value="">Elegí una opción</option>
+      <option value="intoxicarme">Intoxicarme</option>
+      <option value="pensamientos">Pensamientos</option>
+      <option value="ganas de verte">Ganas de Verte</option>
+      <option value="kamikaze">Kamikaze</option>
+      <option value="Jinetes Cromados">Jinetes Cromados</option>
+      <option value="vaaserdificilolvidar">Va a Ser Dificil Olvidar</option>
+      <option value="cuchillosguantanemera">Cuchillos Guantanmera</option>
+      <option value="camposeliseos">Campos Elí seos</option>
+      <option value="mambanegra">Mamba Negra</option>
+      <option value="motorenfermo">Motor Enfermo</option>
+      <option value="alparecertodohasidounatrampa">Al Parecer Todo Ha Sido Una Trampa</option>
+      <option value="volveracasa">Volver a Casa</option>
+      <option value="perdido">Perdido</option>
+      <option value="comoundiamante">Como un Diamante</option>
+      <option value="milasaturnoyelrio">Mila, Saturno y el Rio</option>
+      <option value="uberpuber">Über puber</option>
+      <option value="asidefacil">Así de fácil</option>
+    </select>
+  </fieldset>
+  <button type="submit">Enviar</button>
+</form>
+</section>
+
+        
+
+
+</main>
+    <footer>
+<p class="color">Airbag</p>
+       <div class="redes">
+        <a href="https://www.instagram.com/airbag.oficial/?hl=es" target="_blank"> <img src="./imagenes/instagram-svgrepo-com.svg" alt="Imagen del icono de Instagram." ></a>
+        <a href="https://www.tiktok.com/@airbagoficial?lang=es" target="_blank"><img src="./imagenes/tiktok-svgrepo-com.svg" alt="Imagen del logo de Tiktok"></a>
+        <a href="https://x.com/airbaginfo?lang=es" target="_blank"><img src="./imagenes/twitter-svgrepo-com.svg" alt="Imagen del logo de Twitter" ></a>
+        </div>
+        <p class="color">Sitio web creado por Daniela Piñerua para Escuela Da Vinci</p>
+</footer>
+</body>
+</html>
