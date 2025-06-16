@@ -8,7 +8,11 @@ body {
     position: relative;
     display: grid;
     grid-template-rows: auto 1fr auto;
-    min-height: 135vh;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    min-height: 100vh;
     }
 
 body::before{
@@ -52,6 +56,7 @@ header {
     padding: 5px 20px ;
     align-items: center;
     top: 0;
+    grid-area: header;
 }
 
 .titulo {
@@ -118,6 +123,8 @@ margin-top: 3vh;
 position: relative;
 display: flex;
 flex-direction: column;
+grid-area: main;
+margin-bottom: 30px;
 }
 
 
@@ -491,9 +498,7 @@ background-color: #BDD9F2;
   border-radius: 15px;
 }
 
-.margen{
-    margin-bottom: 15px;
-}
+
 .foto a, .sinopsistexto a{
     all: unset;
     text-decoration: underline;
@@ -573,7 +578,6 @@ ul {
     border-radius: 10px;
     padding: 30px;
     box-shadow: 0 5px 15px 20px rgba(27, 27, 27, 0.1);
-    margin-bottom: 15px;
 }
 
 .formulario fieldset{
@@ -675,6 +679,7 @@ footer {
     border-top: solid 7px black;
     z-index: 1;
     padding: 5px;
+    grid-area: footer;
 }
 
 #ultimo {
