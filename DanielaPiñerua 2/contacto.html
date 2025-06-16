@@ -62,17 +62,21 @@
 
     <form method="get" action="./confirmacion.html" class="formulario">
   <fieldset>
-    <legend><span>Ingresa con tu mail y contraseña</span></legend>
-    <span>Mail:</span>
-    <input type="email" name="usuario" autofocus autocomplete="off" required>
-    <span>Contraseña:</span>
-    <input type="password" name="contraseña" required minlength="6" maxlength="15">
+    <legend><span>Ingresa tus datos</span></legend>
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" id="nombre" required>
+    <label for="apellido">Apellido:</label>
+    <input type="text" name="apellido" id="apellido" required>
+    <label for="email" id="mail">Mail:</label>
+    <input type="email" name="usuario" id="mail" autocomplete="off" required>
+   <label for="contraseña">Contraseña:</label>
+    <input type="password" name="contraseña" id="contraseña" minlength="6" maxlength="15" required>
  </fieldset>
 
   <fieldset>
     <legend><span>¡Contanos que te pareció la película!</span></legend>
-    <span>¿Cómo la calificarías?</span>
-    <select name="preferencia" required>
+    <label for="preferencia">¿Cómo la calificarías?</label>
+    <select name="preferencia" id="preferencia" required>
       <option value="">Elegí una opción</option>
       <option value="excelente">Excelente</option>
       <option value="muybuena">Muy buena</option>
@@ -84,8 +88,8 @@
 
   <fieldset>
     <legend><span>Dejanos tu mensaje</span></legend>
-    <span>¿Querés dejar una consulta o comentario?</span><br>
-    <textarea name="mensaje" cols="30"rows="3" placeholder="Escribí tu mensaje/consulta acá"></textarea>
+    <label for="mensaje">¿Querés dejar una consulta o comentario?</label>
+    <textarea name="mensaje" id="mensaje" cols="30"rows="3" placeholder="Escribí tu mensaje/consulta acá"></textarea>
   </fieldset>
   <button type="submit">Enviar</button>
 </form>
