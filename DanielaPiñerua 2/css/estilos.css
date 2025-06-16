@@ -414,7 +414,7 @@ img {
   align-items: flex-start;
   gap: 40px;
   padding: 20px;
-  margin: auto;
+  margin: 0 auto;
   width: 1500px;
 }
 
@@ -489,6 +489,10 @@ background-color: #BDD9F2;
   transition: transform 0.5s ease, box-shadow 0.5s ease;
   margin: 0 auto;
   border-radius: 15px;
+}
+
+.margen{
+    margin-bottom: 15px;
 }
 .foto a, .sinopsistexto a{
     all: unset;
