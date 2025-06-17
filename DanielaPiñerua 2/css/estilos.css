@@ -12,7 +12,6 @@ body {
     "header"
     "main"
     "footer";
-    min-height: 100vh;
     }
 
 body::before{
@@ -116,17 +115,14 @@ text-decoration: none;
     text-shadow: 5px 4px 10px black;
 }
 
-nav, main, footer {
+nav, main {
     padding: 1em;
 }
 
 
 main {
 z-index: 1;
-margin-top: 3vh;
 position: relative;
-display: flex;
-flex-direction: column;
 grid-area: main;
 }
 
@@ -678,10 +674,9 @@ margin: 7px 15px;
 }
       
 footer {
-    background-color: #184a8b;
+    background-color: #103769;
     border-top: solid 7px black;
     z-index: 1;
-    padding: 5px;
     grid-area: footer;
 }
 
