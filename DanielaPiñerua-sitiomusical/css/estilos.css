@@ -134,7 +134,7 @@ pointer-events: auto;
 }
 
 
-header, nav, main, footer{
+header, nav, main{
     padding: 1em;
 }
 main{
