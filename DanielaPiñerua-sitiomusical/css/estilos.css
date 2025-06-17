@@ -41,8 +41,6 @@ header{
 
 #banda {
        font-family: 'seasideresortnfregular';
-    src: url('../fuentes/seasrn__-webfont.woff2') format('woff2'),
-         url('../fuentes/seasrn__-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     color: white;
@@ -160,8 +158,6 @@ main{
 
 h1, h2{
     font-family: 'kaushan_scriptregular';
-    src: url('../fuentes/kaushanscript-regular-webfont.woff2') format('woff2'),
-         url('../fuentes/kaushanscript-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     color: #D2C388;
