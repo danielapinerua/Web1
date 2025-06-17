@@ -53,9 +53,9 @@ header {
     position: sticky;
     z-index: 2000;
     justify-content: space-between;
-    padding: 5px 20px ;
     align-items: center;
     top: 0;
+    padding: 5px;
     grid-area: header;
 }
 
@@ -116,6 +116,10 @@ text-decoration: none;
     text-shadow: 5px 4px 10px black;
 }
 
+nav, main, footer {
+    padding: 1em;
+}
+
 
 main {
 z-index: 1;
@@ -124,7 +128,6 @@ position: relative;
 display: flex;
 flex-direction: column;
 grid-area: main;
-margin-bottom: 30px;
 }
 
 
@@ -675,7 +678,7 @@ margin: 7px 15px;
 }
       
 footer {
-    background-color: #0E2F59;
+    background-color: #184a8b;
     border-top: solid 7px black;
     z-index: 1;
     padding: 5px;
