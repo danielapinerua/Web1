@@ -134,6 +134,9 @@ pointer-events: auto;
 }
 
 
+header, nav, main, footer{
+    padding: 1em;
+}
 main{
     margin-top: 5vh;
    position: relative;
@@ -372,7 +375,6 @@ h3{
     border-radius: 10px;
     padding: 30px;
     box-shadow: 0 5px 15px 20px rgba(27, 27, 27, 0.1);
-    margin-bottom: 10px;
 }
 .formulario fieldset{
     border: 3px solid #0F1B40;
@@ -441,14 +443,6 @@ h3{
 .confirmacion img:hover{
     transform: scale(1.1);
 }
-
-footer {
-    background-color: #4e0809;
-    z-index: 1;
-    padding: 5px;
-     border-top: solid 7px black;
-
-}
 .formulario button[type="submit"] {
   display: block;
   margin: 0 auto;
@@ -462,6 +456,13 @@ footer {
 .formulario button[type="submit"]:hover {
   background-color: #001c8d;
   box-shadow: 0 4px 15px rgba(100, 120, 200, 0.5);
+}
+
+footer {
+    background-color: #4e0809;
+    z-index: 1;
+     border-top: solid 7px black;
+
 }
 
 
