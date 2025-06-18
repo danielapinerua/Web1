@@ -455,8 +455,10 @@ footer {
 
 .footertexto{
   
-  font-family: Georgia, 'Times New Roman', Times, serif; 
-  font-weight: normal;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 250;
+  font-style: normal;
   font-size: 18px;
 }
 
