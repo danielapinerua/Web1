@@ -426,6 +426,7 @@ h3{
 }
 .confirmacion img{
     width: 50px;
+    filter: invert(1);
     transition: transform 0.2s;
 }
 
