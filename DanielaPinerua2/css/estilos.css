@@ -396,9 +396,10 @@ h3{
     font-family: "Russo One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 25px;
+    font-size: 1.1rem;
     text-align: center;
     color: black;
+    margin-top: 40px;
     text-decoration: underline;
 }
 img {
@@ -420,7 +421,7 @@ img {
   width: 1500px;
 }
 
-article{
+/*article{
  width: 340px;
   height: 465px;
   background-color: #BDD9F2;
@@ -474,6 +475,56 @@ height: 80px;
     margin-left: 550px;
     margin-top: 40px;
     width: 600px;
+}
+    */
+
+    article {
+  background-color: white;
+  border-radius: 12px;
+  width: 340px;
+  height: 460px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  box-sizing: border-box;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+article p{
+    font-size: 0.9rem;
+}
+.imagen{
+      width: 100%;
+  height: 13rem;
+  border-radius: 8px;
+  margin: 10px  auto;
+}
+
+.imagen img, .imagen iframe{
+    width: 100%;
+  height: 100%;
+  object-fit:cover;
+  border: none;
+}
+
+.spotify{
+    height: 250px;
+}
+
+.imagen figcaption{
+  padding: 5px;
+  font-size: 0.7rem;
+}
+
+
+#oscar {
+  font-size: 1.2rem;
+  background-color: white;
+  border: 4px solid black;
+  border-radius: 12px;
+  padding: 15px 20px;
+  width: 800px;
+  text-align: center;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.137);
+ transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
 
 .contenedorimagen{
@@ -530,9 +581,8 @@ ul {
     font-family: "Russo One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 15px;
+    font-size: 0.8rem;
     color: black;
-   
 }
 
 .cuadromensaje{
@@ -670,18 +720,17 @@ margin: 7px 15px;
 }
       
 footer {
-    background-color: #103769;
-    border-top: solid 7px black;
+    background-color: #0E2F59;
     z-index: 1;
     grid-area: footer;
 }
 
-#ultimo {
-font-size: 20px;
-margin-bottom: 10px;
-text-align: justify;
-margin-left: 100px;
-margin-top: 10px;
+
+footer p{
+    color: white;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 12px;
 }
 
 .redes{
@@ -697,6 +746,8 @@ margin-top: 10px;
     padding: 0;
     margin: 0;
     transition: transform 0.4s;
+    filter: invert(1);
+    border: none;
 }
 
 .redes img:hover{

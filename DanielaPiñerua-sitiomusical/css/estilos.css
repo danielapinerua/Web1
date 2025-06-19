@@ -405,8 +405,8 @@ h3{
 .confirmacion {
   height: 600px;      
   width: 500px; 
-  margin: 10px auto;      
   padding: 20px;     
+margin: 10px auto;      
   background-color: rgba(172, 42, 42, 0.382); 
   border-radius: 12px;    
   border: 2px solid #6f2727d5;
