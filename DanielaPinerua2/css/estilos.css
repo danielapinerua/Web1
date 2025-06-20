@@ -542,10 +542,11 @@ background-color: #BDD9F2;
   transition: transform 0.5s ease, box-shadow 0.5s ease;
   margin: 0 auto;
   border-radius: 15px;
+  object-fit: cover;
 }
 
 
-.foto a, .sinopsistexto a{
+article a, .sinopsistexto a{
     all: unset;
     text-decoration: underline;
     cursor: pointer;
@@ -553,22 +554,27 @@ background-color: #BDD9F2;
     font-weight: 400;
     font-style: normal;
 }
-.foto a:hover , .sinopsistexto a:hover{
+article a:hover , .sinopsistexto a:hover{
     color: rgb(92, 91, 91);
 
 }
-.foto a:focus , .sinopsistexto a:focus{
+article a:focus , .sinopsistexto a:focus{
     outline: 3px solid rgb(61, 61, 115);
 }
 
-.foto a:visited , .sinopsistexto a:visited{
+article a:visited , .sinopsistexto a:visited{
     color: rgb(154, 14, 14);
 }
 
 .grande{
-    height: 300px;
-    padding-top: 35px;
-    border: 5px solid black;
+    height: 25rem;
+     width: 28%;
+}
+
+.grande p{
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    
 }
 #sub{
     margin-top: 100px;
