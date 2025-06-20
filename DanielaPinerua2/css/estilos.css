@@ -479,11 +479,11 @@ height: 80px;
     */
 
     article {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.81);
   border-radius: 12px;
   width: 340px;
   height: 460px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 8px 10px rgba(0,0,0,0.1);
   padding: 20px;
   box-sizing: border-box;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -495,7 +495,7 @@ article p{
       width: 100%;
   height: 13rem;
   border-radius: 8px;
-  margin: 10px  auto;
+  margin: 10px auto;
 }
 
 .imagen img, .imagen iframe{
@@ -589,6 +589,18 @@ ul {
     font-style: normal;
     font-size: 0.8rem;
     color: black;
+}
+
+.alto{
+    height: 30rem;
+}
+
+
+.alto figure{
+    margin-bottom: 3rem;
+}
+.alto figcaption{
+    font-size: 0.9rem;
 }
 
 .cuadromensaje{
@@ -716,14 +728,6 @@ ul {
     font-size: 27px;
 }
 
-.alto{
-    height: 400px;
-    padding: 15px;
-}
-
-.alto figure img{
-margin: 7px 15px;
-}
       
 footer {
     background-color: #0E2F59;
