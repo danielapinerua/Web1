@@ -641,7 +641,7 @@ ul {
 }
 
 .formulario fieldset{
-    border: 3px solid black;
+    border: 3px solid #BDD9F2;
     border-radius: 8px;
      padding: 1.5rem;
     margin-bottom: 2rem;
@@ -649,9 +649,10 @@ ul {
 .formulario legend span{
     font-family: "Russo One", sans-serif;
     font-weight: 400;
+    color: #0c274a;
     font-style: normal;
     text-align: center;
-    background-color: #8BB4D9;
+    background-color: white;
     font-size: 20px;
     padding: 10px;
     width: 515px;
@@ -680,10 +681,13 @@ ul {
 }
 
 .formulario textarea{
-    height: 90px;
+    width: 95%;
     
 }
 
+::placeholder{
+    color: white;
+}
 .formulario button[type="submit"] {
   display: block;
   margin: 0 auto;
