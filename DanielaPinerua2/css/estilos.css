@@ -430,7 +430,7 @@ h3{
   background-color: rgba(255, 255, 255, 0.81);
   border-radius: 12px;
   width: 340px;
-  height: 460px;
+  height: 500px;
   box-shadow: 0 8px 10px rgba(0,0,0,0.1);
   padding: 20px;
   box-sizing: border-box;
@@ -453,8 +453,8 @@ article p{
   border: none;
 }
 
-.spotify{
-    height: 250px;
+article iframe{
+    height: 80px;
 }
 
 .imagen figcaption{
@@ -526,8 +526,8 @@ article a:visited , .sinopsistexto a:visited{
     
 }
 #sub{
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin-top: 5%;
+    margin-bottom: 3%;
 }
       
 
