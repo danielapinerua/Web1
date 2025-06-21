@@ -213,18 +213,16 @@ flex: 2;
     color: black;
     margin: 3rem;
 
-
 }
 
 
 .poster{
     flex: 1.5;
-    width: 40%;
-    margin: 35px;
-    margin-left: 140px;
+   width: 100%;
+    text-align: center;
 }
 
-.milagro img {
+.poster img {
    width: 80%;
    margin: 0 auto ;
 height: auto;
@@ -233,6 +231,9 @@ border: 10px solid #3E608C;
    transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
 
+.poster figcaption{
+    margin-top: 1rem;
+}
 
 @font-face {
     font-family: 'aguafina_scriptregular';
@@ -261,7 +262,6 @@ h2,h1{
   align-items: flex-start;
   flex-wrap: wrap; 
   width: 70%;
-  height: 650px;
   padding: 10px;
   gap: 1rem;
   margin: 0 auto;
@@ -269,6 +269,7 @@ h2,h1{
   border: 2px solid rgba(173, 173, 173, 0.675);
   border-radius: 8px;
   scroll-margin-top: 100px;
+  height: 650px;
 }
 
 .size{
@@ -280,10 +281,8 @@ height: 610px;
 }
 
 
-
 .sinopsistexto {
     width: 40%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     line-height: 25px;
     text-indent: 15px;
@@ -305,13 +304,15 @@ height: 610px;
     font-weight: 700;
     font-style: normal;
   text-decoration-line: underline;
-  margin-right: 70px;
+ text-align: center;
 }
 
 .trailer {
     width: 50%;
-  box-sizing: border-box;
-
+}
+.trailer iframe{
+    display: block;
+    margin: 0 auto;
 }
 
 .mapa{
@@ -372,10 +373,7 @@ figcaption{
     font-style: normal;
     font-size: 13px;
 }
-.milagro figcaption{
-    margin-right: 85px;
-    margin-top: 15px;
-}
+
 
 .director figcaption{
     margin-right: 40px;
@@ -405,9 +403,7 @@ img {
     border: solid 7px black;
     border-radius: 5px;
 }
-.seb{
-    margin-left: 45px;
-}
+
 
 .contenedor2{
   display: flex;
@@ -420,62 +416,6 @@ img {
   width: 1500px;
 }
 
-/*article{
- width: 340px;
-  height: 465px;
-  background-color: #BDD9F2;
-  border-radius: 12px;
-  padding: 20px;
-  box-sizing: border-box;
-  border: 5px solid black;
-  transition: transform 0.5s ease, box-shadow 0.5s ease;
-}
-
-article iframe{
-    width: 100%;
-height: 80px;
-}
-
-#oscar{
-    background-color: #BDD9F2;
-    width:900px;
-    padding: 20px;
-    border-radius: 12px;
-    font-size: 25px;
-    text-align: center;
-    transition: transform 0.5s ease, box-shadow 0.5s ease;
-    border: 5px solid black;
-
-}
-.bayona{
-    margin: 0;
-    width: 70%;
-}
-.bayona img{
-    height: 200px;
-    border-radius: 10px; 
-    margin-top: 20px;
-    border: solid 10px black;
-}
-
-.feroz{
-    height: 150px;
-    margin: 25px 35px;
-    border-radius: 10px;
-}
-
-.cec{
-    margin: 30px 13px;
-}
-
-#grabacion {
-    border-radius: 10px;
-    border-color: #609BBF;
-    margin-left: 550px;
-    margin-top: 40px;
-    width: 600px;
-}
-    */
 
     article {
   background-color: rgba(255, 255, 255, 0.81);
@@ -531,8 +471,9 @@ article p{
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
-  max-width: 1600px;
   margin: 0 auto;
+   width: 1600px;
+
 }
 
 .foto{
@@ -552,11 +493,11 @@ article a, .sinopsistexto a{
     font-style: normal;
 }
 article a:hover , .sinopsistexto a:hover{
-    color: rgb(92, 91, 91);
+    color: rgb(77, 76, 76);
 
 }
 article a:focus , .sinopsistexto a:focus{
-    outline: 3px solid rgb(61, 61, 115);
+    outline: 3px solid rgb(52, 52, 97);
 }
 
 article a:visited , .sinopsistexto a:visited{
@@ -672,12 +613,13 @@ ul {
   font-weight: bold;
 }
 .formulario input, .formulario select, .formulario textarea {
-  width: 100%;
+  width: 95%;
   padding: 0.5rem;
   border: 2px solid #7ea0d9;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.15);
   color: #f0f4f8;
+  transition: background-color 0.4s ease;
 }
 
 .formulario textarea{
@@ -687,6 +629,10 @@ ul {
 
 ::placeholder{
     color: white;
+}
+
+.formulario select:hover,.formulario textarea:hover, .formulario input:hover {
+  background-color: rgba(85, 68, 158, 0.276);
 }
 .formulario button[type="submit"] {
   display: block;
