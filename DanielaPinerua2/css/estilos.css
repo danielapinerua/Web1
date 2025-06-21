@@ -270,12 +270,12 @@ h2,h1{
   border: 2px solid rgba(173, 173, 173, 0.675);
   border-radius: 8px;
   scroll-margin-top: 100px;
-  height: 630px;
+  height: 39rem;
 }
 
 
 .big{
-    height: 760px;
+    height: 48rem;
     padding: 2rem;
 }
 
@@ -337,12 +337,13 @@ h2,h1{
     flex-wrap: wrap;
     gap: 25px;
     padding: 20px;
-    margin-top: 2%;
+    margin: 0 auto;
+    max-width: 1600px;
+    
 }
 
 .columna{
     width:30%;
-   min-width: 300px;
    min-height: 410px;
    background-color: #BDD9F2;
    border-radius: 12px;
