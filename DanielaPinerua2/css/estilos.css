@@ -717,9 +717,12 @@ footer {
 
 footer p{
     color: white;
-    font-size: 1.2rem;
     text-align: justify;
     margin: 12px;
+     font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .redes{
