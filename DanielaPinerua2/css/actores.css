@@ -49,18 +49,10 @@ padding-bottom: 10px;
 
 #actor {
  border: 10px ridge white;
-margin-left: 45px;
+display: block;
+margin: auto;
 }
 
-#actor2 {
- border: 10px ridge white;
-margin-left: 90px;
-
-}
-
-.texto2 img{
-   border: 10px ridge white;
-}
 .texto2 figcaption{
     color: rgba(255, 255, 255, 0.792);
 }
