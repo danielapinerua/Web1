@@ -194,7 +194,7 @@ width: 100%;
 flex-direction: row-reverse;
 align-items:center;
 flex-wrap: wrap;
-width: 1500px;
+max-width: 1500px;
 gap: 2rem;
 margin: 0 5rem;
 background-color: rgba(255, 255, 255, 0.707);
@@ -262,7 +262,7 @@ h2,h1{
   justify-content: space-between; 
   align-items: flex-start;
   flex-wrap: wrap; 
-  width: 70%;
+  max-width: 1100px;
   padding: 10px;
   gap: 1rem;
   margin: auto;
@@ -275,7 +275,7 @@ h2,h1{
 
 
 .big{
-    height: 48rem;
+    height: 49rem;
     padding: 2rem;
 }
 
@@ -322,9 +322,9 @@ h2,h1{
 }
 
 .mapa{
-    width: 50%;
     margin: auto;
     flex: 1;
+    border: 3px solid #7ea0d9;
 }
 #locacion{
     margin-top: 75px;
@@ -531,7 +531,7 @@ article a:visited , .sinopsistexto a:visited{
 }
 
 .grande{
-    height: 25rem;
+    height: 26rem;
      width: 28%;
 }
 
