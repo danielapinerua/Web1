@@ -339,7 +339,7 @@ h2,h1{
 
 .columna{
     width:30%;
-   height: 650px;
+   min-height: 640px;
    background-color: #BDD9F2;
    border-radius: 12px;
    padding: 30px;
