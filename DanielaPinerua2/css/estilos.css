@@ -478,13 +478,13 @@ article iframe{
   justify-content: center;
   gap: 2rem;
   margin: 0 auto;
-  max-width: 1600px;
+  max-width: 1400px;
 
 }
 
 .foto{
-    width: 26%;
-    height: 330px;
+    width: 25%;
+    height: 320px;
   transition: transform 0.5s ease, box-shadow 0.5s ease;
   border-radius: 15px;
 border: solid 7px black;
