@@ -418,8 +418,6 @@ h3{
   padding: 20px;
   margin: auto;
   max-width: 1500px;
-  /*width: 100%;
-  */
 }
 
 
@@ -527,8 +525,8 @@ article a:visited , .sinopsistexto a:visited{
 }
 
 .grande{
-    height: 26rem;
-     width: 28%;
+    width: 28%;
+    height: 450px;
 }
 
 .grande p{
@@ -541,7 +539,6 @@ article a:visited , .sinopsistexto a:visited{
     margin-bottom: 3%;
 }
       
-
 
 ul {
     font-family: "Russo One", sans-serif;
