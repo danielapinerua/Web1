@@ -511,8 +511,6 @@ article a, .sinopsistexto a{
     text-decoration: underline;
     cursor: pointer;
     color: #3E608C;
-    font-weight: 400;
-    font-style: normal;
 }
 article a:hover , .sinopsistexto a:hover{
     color: rgb(77, 76, 76);
