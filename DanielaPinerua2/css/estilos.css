@@ -527,6 +527,7 @@ article a:visited , .sinopsistexto a:visited{
 .grande{
     width: 28%;
     height: 450px;
+    border: 2px solid #7ea0d9;
 }
 
 .grande p{
