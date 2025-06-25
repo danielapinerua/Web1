@@ -423,13 +423,13 @@ h3{
     article {
   background-color: rgba(255, 255, 255, 0.81);
   border-radius: 12px;
-  width: 340px;
   box-shadow: 0 8px 10px rgba(0,0,0,0.1);
   box-sizing: border-box;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .size{
+width: 340px;
 height: 500px;
 padding: 20px;
 }
@@ -526,7 +526,7 @@ article a:visited , .sinopsistexto a:visited{
 
 .grande{
     width: 28%;
-    height: 470px;
+    height: 460px;
     border: 2px solid #7ea0d9;
     padding: 13px;
 }
@@ -726,6 +726,7 @@ footer p{
     gap: 30px;
     display: flex;
     align-items: center;
+    flex-wrap: nowrap;
 }
 
 .redes img{
