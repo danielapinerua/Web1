@@ -679,7 +679,9 @@ ul {
   background-color: #5c6fb8;
   box-shadow: 0 4px 15px rgba(100, 120, 200, 0.5);
 }
-
+.formulario select option {
+    background-color: blueviolet;
+}
 
 .confirmacion {
   width: 630px;       
