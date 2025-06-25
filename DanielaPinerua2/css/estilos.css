@@ -525,10 +525,11 @@ article a:visited , .sinopsistexto a:visited{
 }
 
 .grande{
-    width: 28%;
+    width: 29%;
     height: 470px;
     border: 2px solid #7ea0d9;
     padding: 13px;
+    box-sizing: border-box;
 }
 
 .grande p{
