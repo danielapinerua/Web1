@@ -425,13 +425,13 @@ h3{
   border-radius: 12px;
   width: 340px;
   box-shadow: 0 8px 10px rgba(0,0,0,0.1);
-  padding: 20px;
   box-sizing: border-box;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .size{
 height: 500px;
+padding: 20px;
 }
 article p{
     font-size: 0.9rem;
@@ -528,6 +528,7 @@ article a:visited , .sinopsistexto a:visited{
     width: 28%;
     height: 480px;
     border: 2px solid #7ea0d9;
+    padding: 13px;
 }
 
 .grande p{
