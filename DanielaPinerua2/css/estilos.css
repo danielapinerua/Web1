@@ -805,6 +805,9 @@ footer p{
     width: 16rem;
     font-size: 1rem;
   }
+  .submenu button.burgir {
+    font-size: 1rem;
+  }
 
   .burgir {
     padding: 1rem;
